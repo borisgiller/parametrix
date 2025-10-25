@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametrix - Expenses & Income</title>
+    <meta name="description" content="Submit expenses and income for Parametrix">
+    <meta name="theme-color" content="#705533">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ddc1ae;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1 {
+            margin-bottom: 40px;
+            color: #705533;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        a.button {
+            display: block;
+            padding: 30px;
+            background-color: #705533;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            width: 90%;
+            max-width: 400px;
+            min-height: 120px;
+            border: none;
+            transition: background-color 0.3s;
+        }
+        a.button:hover {
+            background-color: #ddc1ae;
+            color: #705533;
+        }
+        @media (max-width: 600px) {
+            a.button {
+                font-size: 20px;
+                padding: 20px;
+                min-height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Parametrix</h1>
+    <div class="button-container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkL0il0WN9ts-MuI8xp8WVbko8nItnhTyUMSPd0lE_FR2xMQ/viewform?usp=dialog" class="button" target="_blank">Enter Expenses</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4NsmIVdSerXO6ug-AV9DsJl1F7wqea9OH3MFh7DI-y1bXHw/viewform?usp=publish-editor" class="button" target="_blank">Enter Income</a>
+    </div>
+</body>
+</html>
